@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+}
+.main{
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh);
+  width: calc(100vw);
+  background-color: rgb(160, 197, 229);
+}
+.change-mode{
+  display: flex;
+  justify-content: right;
+  background-color: aquamarine;
+}
+.mode{
+  padding: 10px;
+  border-radius: 50%;
+  background-color: rgb(237, 248, 133);
+}
